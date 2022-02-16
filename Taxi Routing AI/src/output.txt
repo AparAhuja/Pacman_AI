@@ -1,0 +1,1112 @@
+### A2_b
+Taxi Start: (3, 0)
+Passenger Start: (0, 0)
+Passenger Destination: (4, 4)
+Gamma: 0.01
+Number of Iterations: 2
+Gamma: 0.1
+Number of Iterations: 4
+Gamma: 0.5
+Number of Iterations: 11
+Gamma: 0.8
+Number of Iterations: 27
+Gamma: 0.99
+Number of Iterations: 47
+
+### A2_c
+Gamma: 0.1
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 2: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 3: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 4: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 5: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 6: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 7: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 8: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 9: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 10: (0, 4, 0, 0, 0) * North -> (0, 3, 0, 0, 0)
+Update 11: (0, 3, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 12: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 13: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 14: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 15: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 16: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 17: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 18: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 19: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 20: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 0, 0, 0) * South -> (0, 3, 0, 0, 0)
+Update 2: (0, 3, 0, 0, 0) * South -> (0, 2, 0, 0, 0)
+Update 3: (0, 2, 0, 0, 0) * South -> (0, 2, 0, 0, 0)
+Update 4: (0, 2, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 5: (0, 1, 0, 0, 0) * South -> (0, 0, 0, 0, 0)
+Update 6: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 7: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 8: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 9: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 10: (1, 2, 1, 2, 1) * East -> (0, 2, 0, 2, 1)
+Update 11: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 12: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 13: (2, 2, 2, 2, 1) * North -> (1, 2, 1, 2, 1)
+Update 14: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 15: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 16: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 17: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 18: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 19: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 0.14165137401051098
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 0, 0, 0) * North -> (0, 1, 0, 0, 0)
+Update 2: (0, 1, 0, 0, 0) * North -> (0, 1, 0, 0, 0)
+Update 3: (0, 1, 0, 0, 0) * North -> (0, 2, 0, 0, 0)
+Update 4: (0, 2, 0, 0, 0) * North -> (0, 3, 0, 0, 0)
+Update 5: (0, 3, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 6: (0, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 7: (1, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 8: (1, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 9: (1, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 10: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 11: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 12: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 13: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 14: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 15: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 16: (0, 4, 0, 0, 0) * North -> (0, 4, 0, 0, 0)
+Update 17: (0, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 18: (1, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 19: (1, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Update 20: (1, 4, 0, 0, 0) * North -> (1, 4, 0, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 2: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 3: (0, 1, 0, 1, 1) * North -> (0, 0, 0, 0, 1)
+Update 4: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 5: (0, 1, 0, 1, 1) * North -> (0, 1, 0, 1, 1)
+Update 6: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 7: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 8: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 9: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 10: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 11: (2, 4, 2, 4, 1) * East -> (2, 3, 2, 3, 1)
+Update 12: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 13: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 14: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 15: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 4.249497532277394
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 0, 0, 0) * North -> (3, 1, 0, 0, 0)
+Update 2: (3, 1, 0, 0, 0) * North -> (3, 2, 0, 0, 0)
+Update 3: (3, 2, 0, 0, 0) * North -> (3, 3, 0, 0, 0)
+Update 4: (3, 3, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 5: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 6: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 7: (3, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 8: (4, 4, 0, 0, 0) * North -> (4, 3, 0, 0, 0)
+Update 9: (4, 3, 0, 0, 0) * North -> (4, 2, 0, 0, 0)
+Update 10: (4, 2, 0, 0, 0) * North -> (4, 3, 0, 0, 0)
+Update 11: (4, 3, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 12: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 13: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 14: (4, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 15: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 16: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 17: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 18: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 19: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 20: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 0, 0, 0) * North -> (3, 0, 0, 0, 0)
+Update 2: (3, 0, 0, 0, 0) * North -> (3, 1, 0, 0, 0)
+Update 3: (3, 1, 0, 0, 0) * North -> (4, 1, 0, 0, 0)
+Update 4: (4, 1, 0, 0, 0) * North -> (4, 2, 0, 0, 0)
+Update 5: (4, 2, 0, 0, 0) * West -> (3, 2, 0, 0, 0)
+Update 6: (3, 2, 0, 0, 0) * West -> (2, 2, 0, 0, 0)
+Update 7: (2, 2, 0, 0, 0) * West -> (1, 2, 0, 0, 0)
+Update 8: (1, 2, 0, 0, 0) * West -> (0, 2, 0, 0, 0)
+Update 9: (0, 2, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 10: (0, 1, 0, 0, 0) * South -> (0, 0, 0, 0, 0)
+Update 11: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 12: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 13: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 14: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 15: (1, 2, 1, 2, 1) * East -> (0, 2, 0, 2, 1)
+Update 16: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 17: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 18: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 19: (2, 3, 2, 3, 1) * North -> (2, 3, 2, 3, 1)
+Update 20: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -18.20930624027691
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 2: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 3: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 4: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 5: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 6: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 7: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 8: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 9: (4, 4, 0, 0, 0) * North -> (4, 3, 0, 0, 0)
+Update 10: (4, 3, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 11: (4, 4, 0, 0, 0) * North -> (4, 3, 0, 0, 0)
+Update 12: (4, 3, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 13: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 14: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 15: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 16: (4, 4, 0, 0, 0) * North -> (4, 4, 0, 0, 0)
+Update 17: (4, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 18: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 19: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Update 20: (3, 4, 0, 0, 0) * North -> (3, 4, 0, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 0, 0, 0) * West -> (3, 4, 0, 0, 0)
+Update 2: (3, 4, 0, 0, 0) * South -> (3, 3, 0, 0, 0)
+Update 3: (3, 3, 0, 0, 0) * West -> (2, 3, 0, 0, 0)
+Update 4: (2, 3, 0, 0, 0) * South -> (2, 2, 0, 0, 0)
+Update 5: (2, 2, 0, 0, 0) * West -> (1, 2, 0, 0, 0)
+Update 6: (1, 2, 0, 0, 0) * West -> (2, 2, 0, 0, 0)
+Update 7: (2, 2, 0, 0, 0) * West -> (1, 2, 0, 0, 0)
+Update 8: (1, 2, 0, 0, 0) * West -> (0, 2, 0, 0, 0)
+Update 9: (0, 2, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 10: (0, 1, 0, 0, 0) * South -> (0, 0, 0, 0, 0)
+Update 11: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 12: (0, 0, 0, 0, 1) * North -> (0, 0, 0, 0, 1)
+Update 13: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 14: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 15: (0, 2, 0, 2, 1) * East -> (1, 2, 1, 2, 1)
+Update 16: (1, 2, 1, 2, 1) * East -> (1, 3, 1, 3, 1)
+Update 17: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 18: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 19: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 20: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -18.20930624027691
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 0, 4, 0) * North -> (0, 1, 0, 4, 0)
+Update 2: (0, 1, 0, 4, 0) * North -> (0, 2, 0, 4, 0)
+Update 3: (0, 2, 0, 4, 0) * North -> (0, 3, 0, 4, 0)
+Update 4: (0, 3, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 5: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 6: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 7: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 8: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 9: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 10: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 11: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 12: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 13: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 14: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 15: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 16: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 17: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 18: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 19: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 20: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 0, 4, 0) * North -> (0, 1, 0, 4, 0)
+Update 2: (0, 1, 0, 4, 0) * North -> (0, 2, 0, 4, 0)
+Update 3: (0, 2, 0, 4, 0) * North -> (0, 3, 0, 4, 0)
+Update 4: (0, 3, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 5: (0, 4, 0, 4, 0) * Pickup -> (0, 4, 0, 4, 1)
+Update 6: (0, 4, 0, 4, 1) * South -> (0, 4, 0, 4, 1)
+Update 7: (0, 4, 0, 4, 1) * South -> (0, 4, 0, 4, 1)
+Update 8: (0, 4, 0, 4, 1) * South -> (0, 3, 0, 3, 1)
+Update 9: (0, 3, 0, 3, 1) * East -> (1, 3, 1, 3, 1)
+Update 10: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 11: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 12: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 13: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 14: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 15: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 16: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 3.207002556954622
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 2: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 3: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 4: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 5: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 6: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 7: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 8: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 9: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 10: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 11: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 12: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 13: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 14: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 15: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 16: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 17: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 18: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 19: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Update 20: (0, 4, 0, 4, 0) * North -> (0, 4, 0, 4, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 0, 4, 0) * Pickup -> (0, 4, 0, 4, 1)
+Update 2: (0, 4, 0, 4, 1) * South -> (0, 3, 0, 3, 1)
+Update 3: (0, 3, 0, 3, 1) * East -> (1, 3, 1, 3, 1)
+Update 4: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 5: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 6: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 7: (2, 3, 2, 3, 1) * North -> (3, 3, 3, 3, 1)
+Update 8: (3, 3, 3, 3, 1) * North -> (3, 4, 3, 4, 1)
+Update 9: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 10: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 9.622069698036908
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 0, 4, 0) * North -> (3, 1, 0, 4, 0)
+Update 2: (3, 1, 0, 4, 0) * North -> (3, 2, 0, 4, 0)
+Update 3: (3, 2, 0, 4, 0) * North -> (4, 2, 0, 4, 0)
+Update 4: (4, 2, 0, 4, 0) * North -> (4, 3, 0, 4, 0)
+Update 5: (4, 3, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 6: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 7: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 8: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 9: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 10: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 11: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 12: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 13: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 14: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 15: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 16: (4, 4, 0, 4, 0) * North -> (4, 3, 0, 4, 0)
+Update 17: (4, 3, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 18: (4, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 19: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 20: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 0, 4, 0) * North -> (3, 1, 0, 4, 0)
+Update 2: (3, 1, 0, 4, 0) * North -> (3, 0, 0, 4, 0)
+Update 3: (3, 0, 0, 4, 0) * North -> (3, 1, 0, 4, 0)
+Update 4: (3, 1, 0, 4, 0) * North -> (3, 0, 0, 4, 0)
+Update 5: (3, 0, 0, 4, 0) * North -> (3, 1, 0, 4, 0)
+Update 6: (3, 1, 0, 4, 0) * North -> (3, 2, 0, 4, 0)
+Update 7: (3, 2, 0, 4, 0) * West -> (2, 2, 0, 4, 0)
+Update 8: (2, 2, 0, 4, 0) * West -> (1, 2, 0, 4, 0)
+Update 9: (1, 2, 0, 4, 0) * North -> (1, 3, 0, 4, 0)
+Update 10: (1, 3, 0, 4, 0) * North -> (1, 4, 0, 4, 0)
+Update 11: (1, 4, 0, 4, 0) * West -> (0, 4, 0, 4, 0)
+Update 12: (0, 4, 0, 4, 0) * Pickup -> (0, 4, 0, 4, 1)
+Update 13: (0, 4, 0, 4, 1) * South -> (0, 3, 0, 3, 1)
+Update 14: (0, 3, 0, 3, 1) * East -> (1, 3, 1, 3, 1)
+Update 15: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 16: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 17: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 18: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 19: (2, 4, 2, 4, 1) * East -> (2, 4, 2, 4, 1)
+Update 20: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -18.20930624027691
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 2: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 3: (4, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 4: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 5: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 6: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 7: (3, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 8: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 9: (4, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 10: (3, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 11: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 12: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 13: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 14: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 15: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 16: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 17: (4, 4, 0, 4, 0) * North -> (4, 4, 0, 4, 0)
+Update 18: (4, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 19: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Update 20: (3, 4, 0, 4, 0) * North -> (3, 4, 0, 4, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (0, 4)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 0, 4, 0) * West -> (3, 4, 0, 4, 0)
+Update 2: (3, 4, 0, 4, 0) * South -> (3, 3, 0, 4, 0)
+Update 3: (3, 3, 0, 4, 0) * West -> (2, 3, 0, 4, 0)
+Update 4: (2, 3, 0, 4, 0) * South -> (2, 2, 0, 4, 0)
+Update 5: (2, 2, 0, 4, 0) * West -> (1, 2, 0, 4, 0)
+Update 6: (1, 2, 0, 4, 0) * North -> (1, 3, 0, 4, 0)
+Update 7: (1, 3, 0, 4, 0) * North -> (1, 3, 0, 4, 0)
+Update 8: (1, 3, 0, 4, 0) * North -> (1, 4, 0, 4, 0)
+Update 9: (1, 4, 0, 4, 0) * West -> (0, 4, 0, 4, 0)
+Update 10: (0, 4, 0, 4, 0) * Pickup -> (0, 4, 0, 4, 1)
+Update 11: (0, 4, 0, 4, 1) * South -> (0, 3, 0, 3, 1)
+Update 12: (0, 3, 0, 3, 1) * East -> (1, 3, 1, 3, 1)
+Update 13: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 14: (1, 2, 1, 2, 1) * East -> (1, 3, 1, 3, 1)
+Update 15: (1, 3, 1, 3, 1) * South -> (1, 2, 1, 2, 1)
+Update 16: (1, 2, 1, 2, 1) * East -> (2, 2, 2, 2, 1)
+Update 17: (2, 2, 2, 2, 1) * North -> (2, 3, 2, 3, 1)
+Update 18: (2, 3, 2, 3, 1) * North -> (2, 4, 2, 4, 1)
+Update 19: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 20: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -18.20930624027691
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 3, 0, 0) * North -> (0, 1, 3, 0, 0)
+Update 2: (0, 1, 3, 0, 0) * North -> (0, 2, 3, 0, 0)
+Update 3: (0, 2, 3, 0, 0) * North -> (0, 3, 3, 0, 0)
+Update 4: (0, 3, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 5: (0, 4, 3, 0, 0) * North -> (0, 3, 3, 0, 0)
+Update 6: (0, 3, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 7: (0, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 8: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 9: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 10: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 11: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 12: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 13: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 14: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 15: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 16: (1, 4, 3, 0, 0) * North -> (1, 4, 3, 0, 0)
+Update 17: (1, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 18: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 19: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 20: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 0, 3, 0, 0) * North -> (0, 0, 3, 0, 0)
+Update 2: (0, 0, 3, 0, 0) * North -> (0, 1, 3, 0, 0)
+Update 3: (0, 1, 3, 0, 0) * North -> (0, 2, 3, 0, 0)
+Update 4: (0, 2, 3, 0, 0) * East -> (0, 2, 3, 0, 0)
+Update 5: (0, 2, 3, 0, 0) * East -> (1, 2, 3, 0, 0)
+Update 6: (1, 2, 3, 0, 0) * East -> (2, 2, 3, 0, 0)
+Update 7: (2, 2, 3, 0, 0) * East -> (3, 2, 3, 0, 0)
+Update 8: (3, 2, 3, 0, 0) * South -> (3, 1, 3, 0, 0)
+Update 9: (3, 1, 3, 0, 0) * South -> (3, 0, 3, 0, 0)
+Update 10: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 11: (3, 0, 3, 0, 1) * North -> (3, 1, 3, 1, 1)
+Update 12: (3, 1, 3, 1, 1) * North -> (3, 2, 3, 2, 1)
+Update 13: (3, 2, 3, 2, 1) * North -> (3, 3, 3, 3, 1)
+Update 14: (3, 3, 3, 3, 1) * North -> (3, 4, 3, 4, 1)
+Update 15: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 16: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 3.207002556954622
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 2: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 3: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 4: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 5: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 6: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 7: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 8: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 9: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 10: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 11: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 12: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 13: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 14: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 15: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 16: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 17: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 18: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 19: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Update 20: (0, 4, 3, 0, 0) * North -> (0, 4, 3, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (0, 4, 3, 0, 0) * South -> (0, 3, 3, 0, 0)
+Update 2: (0, 3, 3, 0, 0) * East -> (0, 3, 3, 0, 0)
+Update 3: (0, 3, 3, 0, 0) * East -> (1, 3, 3, 0, 0)
+Update 4: (1, 3, 3, 0, 0) * South -> (1, 2, 3, 0, 0)
+Update 5: (1, 2, 3, 0, 0) * East -> (2, 2, 3, 0, 0)
+Update 6: (2, 2, 3, 0, 0) * East -> (2, 3, 3, 0, 0)
+Update 7: (2, 3, 3, 0, 0) * East -> (3, 3, 3, 0, 0)
+Update 8: (3, 3, 3, 0, 0) * South -> (3, 2, 3, 0, 0)
+Update 9: (3, 2, 3, 0, 0) * South -> (3, 1, 3, 0, 0)
+Update 10: (3, 1, 3, 0, 0) * South -> (3, 0, 3, 0, 0)
+Update 11: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 12: (3, 0, 3, 0, 1) * North -> (3, 1, 3, 1, 1)
+Update 13: (3, 1, 3, 1, 1) * North -> (3, 2, 3, 2, 1)
+Update 14: (3, 2, 3, 2, 1) * North -> (4, 2, 4, 2, 1)
+Update 15: (4, 2, 4, 2, 1) * North -> (4, 3, 4, 3, 1)
+Update 16: (4, 3, 4, 3, 1) * North -> (4, 4, 4, 4, 1)
+Update 17: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 2.174932531385073
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 3, 0, 0) * North -> (3, 1, 3, 0, 0)
+Update 2: (3, 1, 3, 0, 0) * North -> (3, 2, 3, 0, 0)
+Update 3: (3, 2, 3, 0, 0) * North -> (3, 3, 3, 0, 0)
+Update 4: (3, 3, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 5: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 6: (3, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 7: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 8: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 9: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 10: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 11: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 12: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 13: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 14: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 15: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 16: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 17: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 18: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 19: (4, 4, 3, 0, 0) * North -> (4, 3, 3, 0, 0)
+Update 20: (4, 3, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 2: (3, 0, 3, 0, 1) * North -> (3, 1, 3, 1, 1)
+Update 3: (3, 1, 3, 1, 1) * North -> (3, 2, 3, 2, 1)
+Update 4: (3, 2, 3, 2, 1) * North -> (3, 3, 3, 3, 1)
+Update 5: (3, 3, 3, 3, 1) * North -> (3, 4, 3, 4, 1)
+Update 6: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 7: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 12.97761792812
+----------------------------------
+_______________________________________
+Gamma: 0.1
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 3, 0, 0) * North -> (4, 3, 3, 0, 0)
+Update 2: (4, 3, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 3: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 4: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 5: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 6: (4, 4, 3, 0, 0) * North -> (4, 4, 3, 0, 0)
+Update 7: (4, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 8: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 9: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 10: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 11: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 12: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 13: (3, 4, 3, 0, 0) * North -> (3, 4, 3, 0, 0)
+Update 14: (3, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 15: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 16: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 17: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 18: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 19: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Update 20: (2, 4, 3, 0, 0) * North -> (2, 4, 3, 0, 0)
+Stopping simulation... Max. updates done.
+---------------------------------------------------------
+Discounted Reward: -1.1111111111111112
+----------------------------------
+Gamma: 0.99
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (4, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 20)
+Update 1: (4, 4, 3, 0, 0) * South -> (4, 3, 3, 0, 0)
+Update 2: (4, 3, 3, 0, 0) * South -> (4, 2, 3, 0, 0)
+Update 3: (4, 2, 3, 0, 0) * South -> (4, 1, 3, 0, 0)
+Update 4: (4, 1, 3, 0, 0) * South -> (4, 0, 3, 0, 0)
+Update 5: (4, 0, 3, 0, 0) * West -> (3, 0, 3, 0, 0)
+Update 6: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 7: (3, 0, 3, 0, 1) * North -> (3, 1, 3, 1, 1)
+Update 8: (3, 1, 3, 1, 1) * North -> (3, 2, 3, 2, 1)
+Update 9: (3, 2, 3, 2, 1) * North -> (3, 3, 3, 3, 1)
+Update 10: (3, 3, 3, 3, 1) * North -> (3, 4, 3, 4, 1)
+Update 11: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 12: (4, 4, 4, 4, 1) * Putdown -> (4, 4, 4, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 7.440590511045972
+----------------------------------
+
+### A3
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Gamma: 0.01
+Time taken (iterative, in seconds): 7.148002862930298
+Time taken (linalg, in seconds) 7.621055841445923
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Gamma: 0.1
+Time taken (iterative, in seconds): 11.805814981460571
+Time taken (linalg, in seconds) 11.065857172012329
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Policy Iteration: 8, Policy improved
+Policy Iteration: 9, Policy improved
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Gamma: 0.5
+Time taken (iterative, in seconds): 19.081899642944336
+Time taken (linalg, in seconds) 12.975439071655273
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Policy Iteration: 8, Policy improved
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Gamma: 0.8
+Time taken (iterative, in seconds): 40.17742729187012
+Time taken (linalg, in seconds) 14.792644023895264
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Policy Iteration: 1, Policy improved
+Policy Iteration: 2, Policy improved
+Policy Iteration: 3, Policy improved
+Policy Iteration: 4, Policy improved
+Policy Iteration: 5, Policy improved
+Policy Iteration: 6, Policy improved
+Policy Iteration: 7, Policy improved
+Policy Iteration: 8, Policy improved
+Gamma: 0.99
+Time taken (iterative, in seconds): 543.5685980319977
+Time taken (linalg, in seconds) 16.820366144180298
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 50)
+Update 1: (3, 0, 0, 0, 0) * North -> (3, 1, 0, 0, 0)
+Update 2: (3, 1, 0, 0, 0) * North -> (3, 0, 0, 0, 0)
+Update 3: (3, 0, 0, 0, 0) * North -> (3, 1, 0, 0, 0)
+Update 4: (3, 1, 0, 0, 0) * North -> (3, 2, 0, 0, 0)
+Update 5: (3, 2, 0, 0, 0) * West -> (2, 2, 0, 0, 0)
+Update 6: (2, 2, 0, 0, 0) * West -> (1, 2, 0, 0, 0)
+Update 7: (1, 2, 0, 0, 0) * West -> (0, 2, 0, 0, 0)
+Update 8: (0, 2, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 9: (0, 1, 0, 0, 0) * South -> (0, 0, 0, 0, 0)
+Update 10: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 11: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 12: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 13: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 14: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 15: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 4.249497532277394
+
+
+### B2
+Maximum average discounted reward (QL (fixed)): 3.3555772278899463, Index: 95
+Maximum average discounted reward (QL (decay)): 2.9812120443770356, Index: 70
+Maximum average discounted reward (SARSA (fixed)): 3.2537160295119576, Index: 85
+Maximum average discounted reward (SARSA (decay)): 3.397287101414622, Index: 45
+
+Maximum average discounted reward (QL (fixed)): 3.2076164119082273, Index: 50
+Maximum average discounted reward (SARSA (fixed)): 3.3081102728644356, Index: 95
+
+### B3
+Maximum average discounted reward (QL (fixed)): 3.3555772278899463, Index: 95
+Maximum average discounted reward (QL (decay)): 2.9812120443770356, Index: 70
+Maximum average discounted reward (SARSA (fixed)): 3.2537160295119576, Index: 85
+Maximum average discounted reward (SARSA (decay)): 3.397287101414622, Index: 45
+Configuration: 1
+Taxi starting at location: (0, 4)
+Passenger (source) at location: (0, 0)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 500)
+Update 1: (0, 4, 0, 0, 0) * South -> (0, 4, 0, 0, 0)
+Update 2: (0, 4, 0, 0, 0) * South -> (0, 3, 0, 0, 0)
+Update 3: (0, 3, 0, 0, 0) * South -> (0, 2, 0, 0, 0)
+Update 4: (0, 2, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 5: (0, 1, 0, 0, 0) * South -> (0, 1, 0, 0, 0)
+Update 6: (0, 1, 0, 0, 0) * South -> (0, 0, 0, 0, 0)
+Update 7: (0, 0, 0, 0, 0) * Pickup -> (0, 0, 0, 0, 1)
+Update 8: (0, 0, 0, 0, 1) * North -> (0, 1, 0, 1, 1)
+Update 9: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 10: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 11: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 12: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 7.440590511045972
+__________________________________________
+Configuration: 2
+Taxi starting at location: (3, 0)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 500)
+Update 1: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 2: (3, 0, 3, 0, 1) * North -> (3, 1, 3, 1, 1)
+Update 3: (3, 1, 3, 1, 1) * North -> (3, 2, 3, 2, 1)
+Update 4: (3, 2, 3, 2, 1) * West -> (3, 3, 3, 3, 1)
+Update 5: (3, 3, 3, 3, 1) * West -> (2, 3, 2, 3, 1)
+Update 6: (2, 3, 2, 3, 1) * South -> (2, 2, 2, 2, 1)
+Update 7: (2, 2, 2, 2, 1) * West -> (1, 2, 1, 2, 1)
+Update 8: (1, 2, 1, 2, 1) * North -> (1, 3, 1, 3, 1)
+Update 9: (1, 3, 1, 3, 1) * West -> (1, 4, 1, 4, 1)
+Update 10: (1, 4, 1, 4, 1) * West -> (0, 4, 0, 4, 1)
+Update 11: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 8.525849001056535
+__________________________________________
+Configuration: 3
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (4, 4)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 500)
+Update 1: (0, 0, 4, 4, 0) * North -> (0, 1, 4, 4, 0)
+Update 2: (0, 1, 4, 4, 0) * North -> (0, 2, 4, 4, 0)
+Update 3: (0, 2, 4, 4, 0) * East -> (1, 2, 4, 4, 0)
+Update 4: (1, 2, 4, 4, 0) * East -> (0, 2, 4, 4, 0)
+Update 5: (0, 2, 4, 4, 0) * East -> (1, 2, 4, 4, 0)
+Update 6: (1, 2, 4, 4, 0) * East -> (1, 3, 4, 4, 0)
+Update 7: (1, 3, 4, 4, 0) * South -> (1, 2, 4, 4, 0)
+Update 8: (1, 2, 4, 4, 0) * East -> (2, 2, 4, 4, 0)
+Update 9: (2, 2, 4, 4, 0) * North -> (2, 3, 4, 4, 0)
+Update 10: (2, 3, 4, 4, 0) * North -> (2, 4, 4, 4, 0)
+Update 11: (2, 4, 4, 4, 0) * East -> (3, 4, 4, 4, 0)
+Update 12: (3, 4, 4, 4, 0) * East -> (4, 4, 4, 4, 0)
+Update 13: (4, 4, 4, 4, 0) * Pickup -> (4, 4, 4, 4, 1)
+Update 14: (4, 4, 4, 4, 1) * West -> (3, 4, 3, 4, 1)
+Update 15: (3, 4, 3, 4, 1) * South -> (3, 3, 3, 3, 1)
+Update 16: (3, 3, 3, 3, 1) * West -> (2, 3, 2, 3, 1)
+Update 17: (2, 3, 2, 3, 1) * South -> (2, 3, 2, 3, 1)
+Update 18: (2, 3, 2, 3, 1) * South -> (2, 2, 2, 2, 1)
+Update 19: (2, 2, 2, 2, 1) * West -> (1, 2, 1, 2, 1)
+Update 20: (1, 2, 1, 2, 1) * North -> (1, 3, 1, 3, 1)
+Update 21: (1, 3, 1, 3, 1) * West -> (0, 3, 0, 3, 1)
+Update 22: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 23: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: -3.804329255314478
+__________________________________________
+Configuration: 4
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (4, 4)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 500)
+Update 1: (4, 4, 4, 4, 0) * Pickup -> (4, 4, 4, 4, 1)
+Update 2: (4, 4, 4, 4, 1) * West -> (3, 4, 3, 4, 1)
+Update 3: (3, 4, 3, 4, 1) * South -> (3, 3, 3, 3, 1)
+Update 4: (3, 3, 3, 3, 1) * West -> (2, 3, 2, 3, 1)
+Update 5: (2, 3, 2, 3, 1) * South -> (2, 2, 2, 2, 1)
+Update 6: (2, 2, 2, 2, 1) * West -> (1, 2, 1, 2, 1)
+Update 7: (1, 2, 1, 2, 1) * North -> (1, 3, 1, 3, 1)
+Update 8: (1, 3, 1, 3, 1) * West -> (0, 3, 0, 3, 1)
+Update 9: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 10: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 9.622069698036908
+__________________________________________
+Configuration: 5
+Taxi starting at location: (4, 4)
+Passenger (source) at location: (3, 0)
+Passenger (destination) at location: (0, 4)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 500)
+Update 1: (4, 4, 3, 0, 0) * South -> (4, 3, 3, 0, 0)
+Update 2: (4, 3, 3, 0, 0) * West -> (4, 3, 3, 0, 0)
+Update 3: (4, 3, 3, 0, 0) * West -> (3, 3, 3, 0, 0)
+Update 4: (3, 3, 3, 0, 0) * South -> (3, 2, 3, 0, 0)
+Update 5: (3, 2, 3, 0, 0) * South -> (3, 1, 3, 0, 0)
+Update 6: (3, 1, 3, 0, 0) * South -> (3, 0, 3, 0, 0)
+Update 7: (3, 0, 3, 0, 0) * Pickup -> (3, 0, 3, 0, 1)
+Update 8: (3, 0, 3, 0, 1) * North -> (4, 0, 4, 0, 1)
+Update 9: (4, 0, 4, 0, 1) * North -> (4, 1, 4, 1, 1)
+Update 10: (4, 1, 4, 1, 1) * North -> (4, 2, 4, 2, 1)
+Update 11: (4, 2, 4, 2, 1) * West -> (3, 2, 3, 2, 1)
+Update 12: (3, 2, 3, 2, 1) * West -> (2, 2, 2, 2, 1)
+Update 13: (2, 2, 2, 2, 1) * West -> (3, 2, 3, 2, 1)
+Update 14: (3, 2, 3, 2, 1) * West -> (3, 3, 3, 3, 1)
+Update 15: (3, 3, 3, 3, 1) * West -> (2, 3, 2, 3, 1)
+Update 16: (2, 3, 2, 3, 1) * South -> (2, 2, 2, 2, 1)
+Update 17: (2, 2, 2, 2, 1) * West -> (1, 2, 1, 2, 1)
+Update 18: (1, 2, 1, 2, 1) * North -> (0, 2, 0, 2, 1)
+Update 19: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 20: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 21: (0, 4, 0, 4, 1) * Putdown -> (0, 4, 0, 4, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: -1.851167488332294
+__________________________________________
+
+### B4
+Epsilon: 0
+Highest Average Discounted Reward: 3.3454001412324184, Index: 69
+Epsilon: 0.05
+Highest Average Discounted Reward: 3.2730041870172197, Index: 73
+Epsilon: 0.1
+Highest Average Discounted Reward: 3.2810991375474154, Index: 48
+Epsilon: 0.5
+Highest Average Discounted Reward: 3.4273574093624393, Index: 51
+Epsilon: 0.9
+Highest Average Discounted Reward: 3.4136800615581206, Index: 44
+Alpha: 0.1
+Highest Average Discounted Reward: 3.360639980247843, Index: 54
+Alpha: 0.2
+Highest Average Discounted Reward: 3.416359352227206, Index: 43
+Alpha: 0.3
+Highest Average Discounted Reward: 3.258095868938718, Index: 62
+Alpha: 0.4
+Highest Average Discounted Reward: 3.345462701675097, Index: 36
+Alpha: 0.5
+Highest Average Discounted Reward: 3.3256438315078043, Index: 39
+
+### B5
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 1)
+Passenger (destination) at location: (0, 9)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 200)
+Update 1: (0, 0, 0, 1, 0) * North -> (0, 0, 0, 1, 0)
+Update 2: (0, 0, 0, 1, 0) * North -> (0, 1, 0, 1, 0)
+Update 3: (0, 1, 0, 1, 0) * Pickup -> (0, 1, 0, 1, 1)
+Update 4: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 5: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 6: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 7: (0, 4, 0, 4, 1) * North -> (0, 5, 0, 5, 1)
+Update 8: (0, 5, 0, 5, 1) * North -> (0, 6, 0, 6, 1)
+Update 9: (0, 6, 0, 6, 1) * North -> (0, 7, 0, 7, 1)
+Update 10: (0, 7, 0, 7, 1) * North -> (0, 8, 0, 8, 1)
+Update 11: (0, 8, 0, 8, 1) * North -> (0, 9, 0, 9, 1)
+Update 12: (0, 9, 0, 9, 1) * Putdown -> (0, 9, 0, 9, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 7.440590511045972
+Average Utility: -11.301455769696686
+________________________________________
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 1)
+Passenger (destination) at location: (3, 6)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 200)
+Update 1: (0, 0, 0, 1, 0) * North -> (0, 1, 0, 1, 0)
+Update 2: (0, 1, 0, 1, 0) * Pickup -> (0, 1, 0, 1, 1)
+Update 3: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 4: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 5: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 6: (0, 4, 0, 4, 1) * East -> (1, 4, 1, 4, 1)
+Update 7: (1, 4, 1, 4, 1) * East -> (2, 4, 2, 4, 1)
+Update 8: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 9: (3, 4, 3, 4, 1) * North -> (3, 5, 3, 5, 1)
+Update 10: (3, 5, 3, 5, 1) * North -> (3, 6, 3, 6, 1)
+Update 11: (3, 6, 3, 6, 1) * Putdown -> (3, 6, 3, 6, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 8.525849001056535
+Average Utility: -6.834432034955708
+________________________________________
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 1)
+Passenger (destination) at location: (4, 0)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 200)
+Update 1: (0, 0, 0, 1, 0) * North -> (0, 1, 0, 1, 0)
+Update 2: (0, 1, 0, 1, 0) * Pickup -> (0, 1, 0, 1, 1)
+Update 3: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 4: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 5: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 6: (0, 4, 0, 4, 1) * East -> (1, 4, 1, 4, 1)
+Update 7: (1, 4, 1, 4, 1) * East -> (2, 4, 2, 4, 1)
+Update 8: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 9: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 10: (4, 4, 4, 4, 1) * South -> (4, 3, 4, 3, 1)
+Update 11: (4, 3, 4, 3, 1) * South -> (4, 2, 4, 2, 1)
+Update 12: (4, 2, 4, 2, 1) * South -> (4, 1, 4, 1, 1)
+Update 13: (4, 1, 4, 1, 1) * South -> (4, 0, 4, 0, 1)
+Update 14: (4, 0, 4, 0, 1) * Putdown -> (4, 0, 4, 0, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: 5.302522759876155
+Average Utility: -8.428644016716525
+________________________________________
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 9)
+Passenger (destination) at location: (0, 1)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 200)
+Update 1: (0, 0, 0, 9, 0) * North -> (0, 1, 0, 9, 0)
+Update 2: (0, 1, 0, 9, 0) * North -> (0, 2, 0, 9, 0)
+Update 3: (0, 2, 0, 9, 0) * North -> (0, 3, 0, 9, 0)
+Update 4: (0, 3, 0, 9, 0) * North -> (0, 4, 0, 9, 0)
+Update 5: (0, 4, 0, 9, 0) * North -> (0, 5, 0, 9, 0)
+Update 6: (0, 5, 0, 9, 0) * North -> (0, 6, 0, 9, 0)
+Update 7: (0, 6, 0, 9, 0) * North -> (0, 7, 0, 9, 0)
+Update 8: (0, 7, 0, 9, 0) * North -> (0, 8, 0, 9, 0)
+Update 9: (0, 8, 0, 9, 0) * North -> (0, 9, 0, 9, 0)
+Update 10: (0, 9, 0, 9, 0) * Pickup -> (0, 9, 0, 9, 1)
+Update 11: (0, 9, 0, 9, 1) * South -> (0, 8, 0, 8, 1)
+Update 12: (0, 8, 0, 8, 1) * South -> (0, 7, 0, 7, 1)
+Update 13: (0, 7, 0, 7, 1) * South -> (0, 6, 0, 6, 1)
+Update 14: (0, 6, 0, 6, 1) * South -> (0, 5, 0, 5, 1)
+Update 15: (0, 5, 0, 5, 1) * South -> (0, 4, 0, 4, 1)
+Update 16: (0, 4, 0, 4, 1) * South -> (0, 3, 0, 3, 1)
+Update 17: (0, 3, 0, 3, 1) * South -> (0, 3, 0, 3, 1)
+Update 18: (0, 3, 0, 3, 1) * South -> (0, 2, 0, 2, 1)
+Update 19: (0, 2, 0, 2, 1) * South -> (0, 1, 0, 1, 1)
+Update 20: (0, 1, 0, 1, 1) * Putdown -> (0, 1, 0, 1, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: -0.8597651397295927
+Average Utility: -10.579632132173698
+________________________________________
+Taxi starting at location: (0, 0)
+Passenger (source) at location: (0, 1)
+Passenger (destination) at location: (8, 9)
+---------------------------------------------------------
+Starting simulation... (Max. updates = 200)
+Update 1: (0, 0, 0, 1, 0) * North -> (0, 1, 0, 1, 0)
+Update 2: (0, 1, 0, 1, 0) * Pickup -> (0, 1, 0, 1, 1)
+Update 3: (0, 1, 0, 1, 1) * North -> (0, 2, 0, 2, 1)
+Update 4: (0, 2, 0, 2, 1) * North -> (0, 3, 0, 3, 1)
+Update 5: (0, 3, 0, 3, 1) * North -> (0, 4, 0, 4, 1)
+Update 6: (0, 4, 0, 4, 1) * East -> (0, 4, 0, 4, 1)
+Update 7: (0, 4, 0, 4, 1) * East -> (1, 4, 1, 4, 1)
+Update 8: (1, 4, 1, 4, 1) * East -> (0, 4, 0, 4, 1)
+Update 9: (0, 4, 0, 4, 1) * East -> (1, 4, 1, 4, 1)
+Update 10: (1, 4, 1, 4, 1) * East -> (2, 4, 2, 4, 1)
+Update 11: (2, 4, 2, 4, 1) * East -> (3, 4, 3, 4, 1)
+Update 12: (3, 4, 3, 4, 1) * East -> (4, 4, 4, 4, 1)
+Update 13: (4, 4, 4, 4, 1) * East -> (5, 4, 5, 4, 1)
+Update 14: (5, 4, 5, 4, 1) * South -> (5, 3, 5, 3, 1)
+Update 15: (5, 3, 5, 3, 1) * East -> (6, 3, 6, 3, 1)
+Update 16: (6, 3, 6, 3, 1) * East -> (7, 3, 7, 3, 1)
+Update 17: (7, 3, 7, 3, 1) * North -> (7, 4, 7, 4, 1)
+Update 18: (7, 4, 7, 4, 1) * North -> (6, 4, 6, 4, 1)
+Update 19: (6, 4, 6, 4, 1) * East -> (7, 4, 7, 4, 1)
+Update 20: (7, 4, 7, 4, 1) * North -> (7, 3, 7, 3, 1)
+Update 21: (7, 3, 7, 3, 1) * North -> (7, 4, 7, 4, 1)
+Update 22: (7, 4, 7, 4, 1) * North -> (7, 5, 7, 5, 1)
+Update 23: (7, 5, 7, 5, 1) * East -> (8, 5, 8, 5, 1)
+Update 24: (8, 5, 8, 5, 1) * North -> (8, 6, 8, 6, 1)
+Update 25: (8, 6, 8, 6, 1) * North -> (8, 5, 8, 5, 1)
+Update 26: (8, 5, 8, 5, 1) * North -> (9, 5, 9, 5, 1)
+Update 27: (9, 5, 9, 5, 1) * West -> (8, 5, 8, 5, 1)
+Update 28: (8, 5, 8, 5, 1) * North -> (8, 6, 8, 6, 1)
+Update 29: (8, 6, 8, 6, 1) * North -> (8, 5, 8, 5, 1)
+Update 30: (8, 5, 8, 5, 1) * North -> (8, 6, 8, 6, 1)
+Update 31: (8, 6, 8, 6, 1) * North -> (8, 7, 8, 7, 1)
+Update 32: (8, 7, 8, 7, 1) * North -> (8, 8, 8, 8, 1)
+Update 33: (8, 8, 8, 8, 1) * North -> (8, 9, 8, 9, 1)
+Update 34: (8, 9, 8, 9, 1) * Putdown -> (8, 9, 8, 9, 0)
+Stopping simulation... Destination reached.
+---------------------------------------------------------
+Discounted Reward: -13.872336088206978
+Average Utility: -13.357289910492675
+________________________________________
+Global Average: -10.100290772807059
